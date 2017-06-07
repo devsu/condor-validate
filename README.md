@@ -16,12 +16,12 @@ npm i --save condor-framework
 
 ```js
 const Condor = require('condor-framework');
-const condorValidator = require('condor-validator');
+const validate = require('condor-validate');
 const Greeter = require('./greeter');
 
 const server = new Condor()
   .add('path/to/file.proto', 'GreeterService', new Greeter())
-  .use(condorValidator(/* options */))
+  .use(validate())
   .start();
 ```
 
