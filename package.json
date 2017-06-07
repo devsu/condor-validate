@@ -32,13 +32,17 @@
     "coveralls": "^2.13.1",
     "eslint": "^3.19.0",
     "eslint-config-devsu": "0.0.1",
+    "grpc": "^1.3.7",
     "istanbul": "^0.4.5",
     "jasmine": "^2.5.3",
     "jasmine-spy": "0.0.2",
     "nsp": "^2.6.3",
     "proxyquire": "^1.7.11"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jsonpath": "^0.2.11",
+    "koa-validate": "^1.0.7"
+  },
   "peerDependencies": {
     "condor-framework": ">= 1.5.2 < 2"
   }
